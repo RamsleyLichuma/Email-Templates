@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Fameve Payment Confirmation</title>
+  <style>
+    /* Basic styles */
+    body {
+      font-family: sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #f2f2f2;
+    }
+
+    .container {
+      max-width: 600px;
+      margin: 0 auto;
+      padding: 20px;
+      border-radius: 5px;
+      background-color: #fff;
+    }
+
+    .header {
+      text-align: center;
+      margin-bottom: 20px;
+    }
+
+    .logo {
+      max-width: 200px;
+    }
+
+    .content {
+      line-height: 1.5;
+    }
+
+    .order-details {
+      margin-bottom: 20px;
+    }
+
+    .order-details li {
+      margin-bottom: 5px;
+    }
+
+    .payment-details {
+      font-weight: bold;
+    }
+
+    .footer {
+      text-align: center;
+      margin-top: 20px;
+    }
+
+    .social-links {
+      display: flex;
+      justify-content: center;
+      margin-top: 10px;
+    }
+
+    .social-links a {
+      margin: 0 5px;
+      text-decoration: none;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <header class="header">
+      <img src="path/to/your/logo.png" alt="Fameve Logo" class="logo">
+    </header>
+    <section class="content">
+      <h2>Payment Confirmation</h2>
+      <p>Dear {{Customer Name}},</p>
+      <p>This email confirms that your recent payment using Fameve's online payment mode has been successful.</p>
+
+      <ul class="order-details">
+        <li><strong>Order ID:</strong> {{Order ID}}</li>
+        <li><strong>Order Date:</strong> {{Order Date}}</li>
+        <li><strong>Order Amount:</strong> {{Order Amount}}</li>
+        <li class="payment-details"><strong>Payment Method:</strong> Fameve Online Payment</li>
+      </ul>
+
+      <p>Thank you for using Fameve for your purchase. We appreciate your business!</p>
+
+      <p>Sincerely,</p>
+      <p>The Fameve Team</p>
+    </section>
+    <footer class="footer">
+      <p>&copy; 2024 Fameve. All rights reserved.</p>
+      <div class="social-links">
+        <a href="#">Facebook</a>
+        <a href="#">Twitter</a>
+        <a href="#">Instagram</a>
+      </div>
+    </footer>
+  </div>
+</body>
+</html>

@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Fameve Reservation Confirmation</title>
+  <style>
+    /* Basic styles */
+    body {
+      font-family: sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #f2f2f2;
+    }
+
+    .container {
+      max-width: 600px;
+      margin: 0 auto;
+      padding: 20px;
+      background-color: #fff;
+      border-radius: 5px;
+      box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    }
+
+    .header {
+      text-align: center;
+      padding: 20px 0;
+      border-bottom: 1px solid #ddd;
+    }
+
+    .logo {
+      max-width: 200px;
+      display: block;
+      margin: 0 auto;
+    }
+
+    .content {
+      padding: 20px;
+    }
+
+    .details {
+      margin-bottom: 20px;
+    }
+
+    .details dt {
+      font-weight: bold;
+    }
+
+    .cta {
+      text-align: center;
+      margin-top: 20px;
+    }
+
+    a.button {
+      display: inline-block;
+      padding: 10px 20px;
+      background-color: #007bff;
+      color: #fff;
+      text-decoration: none;
+      border: none;
+      border-radius: 5px;
+    }
+
+    /* Fameve specific styling */
+    .header h1 {
+      color: #007bff;
+    }
+
+    .content p {
+      color: #666;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="header">
+      <h1>Fameve</h1>
+      <h3>Reservation Confirmation</h3>
+    </div>
+    <div class="content">
+      <p>Dear {{Customer Name}},</p>
+      <p>This email confirms your recent reservation on the Fameve website.</p>
+      <div class="details">
+        <dt>Reservation ID:</dt>
+        <dd>{{Reservation ID}}</dd>
+        <dt>Date:</dt>
+        <dd>{{Date}}</dd>
+        <dt>Time:</dt>
+        <dd>{{Time}}</dd>
+        <dt>Service:</dt>
+        <dd>{{Service Name}}</dd>
+        <dt>Stylist:</dt>
+        <dd>{{Stylist Name}}</dd>
+      </div>
+      <p>Thank you for choosing Fameve! We look forward to seeing you soon.</p>
+      <div class="cta">
+        <a href="{{Link to reservation details}}" class="button">View Reservation Details</a>
+      </div>
+      <p>Sincerely,</p>
+      <p>The Fameve Team</p>
+    </div>
+  </div>
+</body>
+</html>

@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fameve Pay Payment Confirmation</title>
+    <style>
+        /* Add your custom CSS styles here */
+        body {
+            font-family: sans-serif;
+            background-color: #f5f5f5;
+            margin: 0;
+            padding: 20px;
+        }
+        .container {
+            background-color: #fff;
+            border-radius: 5px;
+            box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+            padding: 20px;
+        }
+        .header {
+            font-size: 24px;
+            font-weight: bold;
+            text-align: center;
+        }
+        .content {
+            padding: 10px;
+        }
+        .details {
+            font-size: 16px;
+            line-height: 1.5;
+        }
+        .footer {
+            text-align: center;
+            font-size: 12px;
+            color: #ccc;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <img src="https://example.com/logo.png" alt="Fameve Pay Logo" width="200">
+            <h1 style="color: #246CE9;">Fameve Pay</h1>
+        </div>
+        <div class="content">
+            <h2>Payment Confirmation</h2>
+            <p>Dear {{Client Name}},</p>
+            <p>This email confirms that your recent payment of {{Amount}} for {{Transaction Description}} has been successfully processed through Fameve Pay.</p>
+            <p>Here are the details of your transaction:</p>
+            <ul class="details">
+                <li>Transaction ID: {{Transaction ID}}</li>
+                <li>Payment Date: {{Payment Date}}</li>
+                <li>Payment Method: {{Payment Method}}</li>
+                </ul>
+            <p>If you have any questions or concerns about this transaction, please don't hesitate to contact us at {{Support Email Address}} or {{Support Phone Number}}.</p>
+            <p>Thank you for using Fameve Pay!</p>
+        </div>
+        <div class="footer">
+            &copy; {{Year}} Fameve Pay. All rights reserved.
+        </div>
+    </div>
+</body>
+</html>

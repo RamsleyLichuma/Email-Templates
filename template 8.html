@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>New Reservation on Fameve Website</title>
+  <style>
+    /* Customize these styles as per your brand */
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 20px;
+    }
+    h2 {
+      font-size: 20px;
+      margin-bottom: 10px;
+    }
+    table {
+      border-collapse: collapse;
+      width: 100%;
+    }
+    th, td {
+      padding: 8px;
+      border: 1px solid #ddd;
+    }
+    .important {
+      font-weight: bold;
+    }
+  </style>
+</head>
+<body>
+  <h2>New Reservation on Fameve Website</h2>
+
+  <p>This email notifies you of a new reservation made on the Fameve website.</p>
+
+  <table>
+    <tr>
+      <th>Client Name</th>
+      <td>{{Client Name}}</td>
+    </tr>
+    <tr>
+      <th>Client Email</th>
+      <td>{{Client Email}}</td>
+    </tr>
+    <tr>
+      <th>Reservation Date</th>
+      <td>{{Reservation Date}}</td>
+    </tr>
+    <tr>
+      <th>Reservation Time</th>
+      <td>{{Reservation Time}}</td>
+    </tr>
+    <tr>
+      <th>Service</th>
+      <td>{{Service Name}}</td>
+    </tr>
+    <tr>
+      <th>Number of Guests</th>
+      <td>{{Number of Guests}}</td>
+    </tr>
+    <tr class="important">
+      <th>Contact Information</th>
+      <td>{{Client Phone Number (optional)}}</td>
+    </tr>
+    <tr class="important">
+      <th>Additional Notes</th>
+      <td>{{Client Notes (optional)}}</td>
+    </tr>
+  </table>
+
+  <p>Please review the reservation details and take any necessary actions.</p>
+
+  <p>Sincerely,</p>
+  <p>The Fameve Team</p>
+</body>
+</html>

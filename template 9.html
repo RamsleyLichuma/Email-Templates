@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Fameve - Your Subscription Renewal</title>
+  <style>
+    /* Base styles */
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #f0f0f0;
+    }
+    .container {
+      max-width: 600px;
+      margin: 0 auto;
+      padding: 20px;
+      background-color: #fff;
+      border-radius: 5px;
+    }
+    .header {
+      text-align: center;
+    }
+    .logo {
+      max-width: 200px;
+    }
+    .body {
+      padding: 20px;
+    }
+    .title {
+      font-size: 20px;
+      margin-bottom: 10px;
+    }
+    .paragraph {
+      line-height: 1.5;
+    }
+    .cta {
+      text-align: center;
+      margin-top: 20px;
+    }
+    a {
+      text-decoration: none;
+      color: #007bff;
+    }
+    a:hover {
+      color: #005ba0;
+    }
+    .footer {
+      text-align: center;
+      padding: 10px;
+      font-size: 12px;
+      color: #888;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="header">
+      <img src="fameve-logo.png" alt="Fameve Logo" class="logo">
+    </div>
+    <div class="body">
+      <h2 class="title">Hi {{Client Name}},</h2>
+      <p class="paragraph">This is a friendly reminder that your subscription to Fameve is due for renewal on {{date}}.</p>
+      <p class="paragraph">With your continued subscription, you'll enjoy:</p>
+      <ul>
+        <li>{{List subscription benefits}}</li>
+        <li>{{List subscription benefits}}</li>
+        <li>{{List subscription benefits}}</li>
+      </ul>
+      <div class="cta">
+        <a href="{{Renewal Link}}">Renew Your Subscription Now</a>
+      </div>
+      <p class="paragraph">If you have any questions or need assistance with your renewal, please don't hesitate to contact our support team at {{support email address}} or {{support phone number}}.</p>
+    </div>
+    <div class="footer">
+      © 2024 Fameve. All rights reserved.
+    </div>
+  </div>
+</body>
+</html>
